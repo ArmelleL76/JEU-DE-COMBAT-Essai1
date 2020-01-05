@@ -28,7 +28,7 @@ class Player{
    }
     func play(fighter : Warrior)
     {
-        var playerChoice : Int
+        let playerChoice : Int = 0
         
         repeat{
             print("What is your choice?")
