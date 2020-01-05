@@ -53,9 +53,5 @@ func increasePowerArm ()
     func cureOneself(){
         self.life +=  10 }
     
-    func  exchangeArm(randomArm : Arm) ->Int
-{
-self.arm.damage  = randomArm.damage
-    return arm.damage
-    }
+    
 }
