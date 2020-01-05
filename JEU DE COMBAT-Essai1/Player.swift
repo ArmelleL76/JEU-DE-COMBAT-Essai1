@@ -35,20 +35,19 @@ class Player{
             print("1. fight against and cause damages : choose 1 and do return")
             print("2. Increase arm's strenght : choose 2 and do return")
             print("3. Cure your fighter : choose 3 and do return")
-            print("Exchange your arm with the random  one : choose 4 and do return")
+            
             if let playerChoice = readLine(){
                 switch playerChoice
                 {
                 case "1" : fighter.receiveDamage(damage : fighter.arm.damage)
                 case "2" : fighter.increasePowerArm()
                 case "3" : fighter.cureOneself()
-                case "4": fighter.exchangeArm(randomArm : fighter.arm)
-                default : print("Choose an integer in (1,2,3,4)")
+                default : print("Choose a number in (1,2,3)")
                 print("You choosed \(playerChoice)")
                     
                 }
             }
             
-        }while playerChoice != 1 && playerChoice != 2 && playerChoice != 3 && playerChoice != 4
+        }while playerChoice != 1 && playerChoice != 2 && playerChoice != 3
     }
 }
