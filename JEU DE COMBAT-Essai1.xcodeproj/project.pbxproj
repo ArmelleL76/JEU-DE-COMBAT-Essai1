@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5E4CA2623AFB2860029DA57 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E4CA2523AFB2860029DA57 /* main.swift */; };
+		D5734F7223D1D19D00AB96E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5734F7123D1D19D00AB96E0 /* main.swift */; };
 		D5E4CA2823AFB2D40029DA57 /* Chest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E4CA2723AFB2D40029DA57 /* Chest.swift */; };
 		D5E4CA2B23AFB3030029DA57 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E4CA2923AFB3020029DA57 /* Player.swift */; };
 		D5E4CA2C23AFB3030029DA57 /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E4CA2A23AFB3030029DA57 /* Warrior.swift */; };
@@ -32,8 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D5734F7123D1D19D00AB96E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D5E4CA1B23AFB2510029DA57 /* JEU DE COMBAT-Essai1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "JEU DE COMBAT-Essai1"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5E4CA2523AFB2860029DA57 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = "../../Jeu de combat/main.swift"; sourceTree = "<group>"; };
 		D5E4CA2723AFB2D40029DA57 /* Chest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chest.swift; sourceTree = "<group>"; };
 		D5E4CA2923AFB3020029DA57 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		D5E4CA2A23AFB3030029DA57 /* Warrior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		D5E4CA1D23AFB2510029DA57 /* JEU DE COMBAT-Essai1 */ = {
 			isa = PBXGroup;
 			children = (
-				D5E4CA2523AFB2860029DA57 /* main.swift */,
+				D5734F7123D1D19D00AB96E0 /* main.swift */,
 				D5E4CA2723AFB2D40029DA57 /* Chest.swift */,
 				D5E4CA3123AFB3310029DA57 /* Arm.swift */,
 				D5E4CA3223AFB3310029DA57 /* Ax.swift */,
@@ -148,12 +148,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5E4CA3523AFB3320029DA57 /* Sword.swift in Sources */,
-				D5E4CA2623AFB2860029DA57 /* main.swift in Sources */,
 				D5E4CA3723AFB3320029DA57 /* Arm.swift in Sources */,
 				D5E4CA3323AFB3320029DA57 /* BroadSword.swift in Sources */,
 				D5E4CA2B23AFB3030029DA57 /* Player.swift in Sources */,
 				D5E4CA3623AFB3320029DA57 /* WarriorType.swift in Sources */,
 				D5E4CA2C23AFB3030029DA57 /* Warrior.swift in Sources */,
+				D5734F7223D1D19D00AB96E0 /* main.swift in Sources */,
 				D5E4CA2823AFB2D40029DA57 /* Chest.swift in Sources */,
 				D5E4CA3823AFB3320029DA57 /* Ax.swift in Sources */,
 				D5E4CA3423AFB3320029DA57 /* RandomArm.swift in Sources */,
