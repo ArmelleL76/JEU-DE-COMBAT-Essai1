@@ -26,6 +26,12 @@ class Chest{
         
         return randomInteger
     }
+    func exchange()->Int{
+        var damage : Int = 10
+         damage = self.armStrenght()
+    return damage
+    
+    }
 }
 
     
