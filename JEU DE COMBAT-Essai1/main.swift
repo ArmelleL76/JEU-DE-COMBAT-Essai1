@@ -108,9 +108,9 @@ var player1Choice : String = ""
 var player2Choice : String = ""
 repeat{
 print("Player1, choose your warrior")
-    print("1. \(vikingOne.fighterName)")
-    print("2.\(gladiatorOne.fighterName)")
-    print("3.\(knightOne.fighterName)")
+    print("1. \(vikingOne.fighterName) has a life of \(vikingOne.life)")
+    print("2.\(gladiatorOne.fighterName) has a life of \(gladiatorOne.life)")
+    print("3.\(knightOne.fighterName) has a life of \(knightOne.life)")
     if let choice1 = readLine(){
   print("You choosed \(choice1)")
  player1Choice = choice1
@@ -118,9 +118,9 @@ print("Player1, choose your warrior")
 } while player1Choice != "1" && player1Choice != "2" && player1Choice != "3"
 repeat{
 print("Player2, choose your warrior")
-    print("1. \(vikingTwo.fighterName)")
-    print("2.\(gladiatorTwo.fighterName)")
-    print("3.\(knightTwo.fighterName)")
+    print("1. \(vikingTwo.fighterName) has a life of \(vikingTwo.life)")
+    print("2.\(gladiatorTwo.fighterName) has a life of \(gladiatorTwo.life)")
+    print("3.\(knightTwo.fighterName)  has a life of \(knightTwo.life)")
     if let choice2 = readLine(){
   print("You choosed \(choice2)")
         player2Choice = choice2
