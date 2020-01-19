@@ -148,10 +148,7 @@ print ("")
 //We create and display the fighters player1 and player2 have choosen
 var fighterA = Warrior(fighterName : "\(player1Choice)", fighter : warriorType1)
 var fighterB = Warrior(fighterName : "\(player2Choice)", fighter : warriorType2)
-print("\(fighterA.fighterName).....\(fighterA.fighter)")
-print("\(fighterB.fighterName).....\(fighterB.fighter)")//We choose the action
-firstPlayer.play(fighter : fighterA)
-secondPlayer.play(fighter : fighterB)
+print("\(fighterA.fighterName).....\(fighterA.fighter) will be opposed to : \(fighterB.fighterName).....\(fighterB.fighter)")
 
 //A chest will appear or not
 var chest = Chest(randomStrenght : 10)
@@ -159,8 +156,20 @@ var bool : Bool = false
 if  bool == chest.appear(){
     let damage : Int = chest.armStrenght()
     print("The chest contains a random Arm of strenght : \(damage)\n)")
-    print("Do you want to exchange your fighter's arm with the random one?")
+    
+    
+ //The opportunity to exchange arms is given to one player, choosen randomly
+    let number = Int.random(in: 1...2)
+    
+    print("Player number \(number), Do you want to exchange your fighter's arm with the random one?")
 }
+
+
+//We choose the action
+firstPlayer.play(fighter : fighterA)
+secondPlayer.play(fighter : fighterB)
+
+
 
 
 // We look for the winner

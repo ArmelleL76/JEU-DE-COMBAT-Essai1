@@ -28,7 +28,7 @@ class Player{
    }
     func play(fighter : Warrior)
     {
-        let playerChoice : Int = 0
+        var playerChoice : String = ""
         
         repeat{
             print("What is your choice?")
@@ -36,18 +36,22 @@ class Player{
             print("2. Increase arm's strenght : choose 2 and do return")
             print("3. Cure your fighter : choose 3 and do return")
             
-            if let playerChoice = readLine(){
-                switch playerChoice
-                {
-                case "1" : fighter.receiveDamage(damage : fighter.arm.damage)
-                case "2" : fighter.increasePowerArm()
-                case "3" : fighter.cureOneself()
-                default : print("Choose a number in (1,2,3)")
-                print("You choosed \(playerChoice)")
-                    
+            if let choice = readLine(){
+ print("You choosed \(choice)")
+          playerChoice = choice
+                     switch playerChoice
+                       {
+                       case "1" : fighter.receiveDamage(damage : fighter.arm.damage)
+                       case "2" : fighter.increasePowerArm()
+                       case "3" : fighter.cureOneself()
+                       default : print("Choose a number in (1,2,3)")
+                      
+                    }
                 }
-            }
             
-        }while playerChoice != 1 && playerChoice != 2 && playerChoice != 3
-    }
+            
+        }while playerChoice != "1" && playerChoice != "2" && playerChoice != "3"
+       
+  
+}
 }
