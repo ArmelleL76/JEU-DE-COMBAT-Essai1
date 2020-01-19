@@ -62,7 +62,7 @@ let gladiator1 = Warrior(fighterName :"", fighter : .gladiator)
 
 
 print("Second Player, give names to your fighters in this order and do return after each name: \n")
-print("1. Viking,  2. Gladiator,  3.Knight")
+print("1. Viking2,  2. Gladiator2,  3.Knight2")
 let viking2 = Warrior(fighterName :"", fighter : .viking)
 if let nameViking2 = readLine(){
 print("bienvenue : \(nameViking2)")
