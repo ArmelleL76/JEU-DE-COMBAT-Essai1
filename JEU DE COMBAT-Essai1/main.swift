@@ -46,7 +46,7 @@ print("bienvenue : \(name2)")
 
 //Players must give names to their fighters
 print("First Player, give a name to your fighters in this order and do return after each name : \n")
-print("1. Viking,  2. Gladiator,  3.Knight")
+print("1. Viking1,  2. Gladiator1,  3.Knight1")
 let viking1 = Warrior(fighterName :"", fighter : .viking)
 if let nameViking1 = readLine(){
 print("bienvenue : \(nameViking1)")
