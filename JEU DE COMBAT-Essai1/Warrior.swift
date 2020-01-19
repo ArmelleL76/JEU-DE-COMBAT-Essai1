@@ -47,8 +47,8 @@ func fightAgainst(fighter : Warrior)
 func increasePowerArm ()
         {self.arm.damage += 8}
         
-        func descrition() {
-            print("Name : " + "\(self.fighterName)" + "   Life : " + " \(self.life)" + "   Damages : " + " \(self.arm.damage)")
+        func description() {
+            print("Arm : " + "\(self.arm)" + "   Life : " + " \(self.life)" + "   Damages : " + " \(self.arm.damage)")
         }
     func cureOneself(){
         self.life +=  10 }

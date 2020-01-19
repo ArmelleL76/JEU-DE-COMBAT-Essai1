@@ -78,17 +78,7 @@ print("bienvenue : \(nameGladiator2)")
     if let nameKnight2 = readLine(){
 print("bienvenue : \(nameKnight2)")
     knight2.fighterName = nameKnight2}
-    
-print("\(firstPlayer.displayTeam())")
-print("Viking1  : \(viking1.fighterName) ---- life : 90  ---- Arm : Ax ---- powerArm : 20 ---\n")
-print("Gladiator1  : \(gladiator1.fighterName) ---- life : 110  ---- Arm : Broadsword ---- powerArm : 15 ---\n")
-print("Knight1  : \(knight1.fighterName) ---- Life : 80  ---- Arm : Sword ---- powerArm : 12 ---\n")
-
-print("\(secondPlayer.displayTeam())")
-print("Viking 2 : \(viking2.fighterName) ---- Life : 90  ---- Arm : Ax ---- powerArm : 20 ---\n")
-print("Gladiator2  : \(gladiator2.fighterName) ---- Life : 110  ---- Arm : Broadsword ---- powerArm : 15 ---\n")
-print("Knight2  : \(knight2.fighterName) ---- Life : 80  ---- Arm : Sword ---- powerArm : 12 ---\n")
-
+ 
 //Instanciation des guerriers
 
 let vikingOne = Warrior(fighterName : viking1.fighterName , fighter : .viking)
@@ -97,6 +87,26 @@ let knightOne = Warrior(fighterName : knight1.fighterName , fighter : .knight)
 let vikingTwo = Warrior(fighterName : viking2.fighterName , fighter : .viking)
 let gladiatorTwo = Warrior(fighterName : gladiator2.fighterName , fighter : .gladiator)
 let knightTwo = Warrior(fighterName : knight2.fighterName , fighter : .knight)
+
+
+
+print("\(firstPlayer.displayTeam())")
+// la fonction description étant dans warrior, elle ne s'applique pas à firstPlayer   il faut définir un Warrior pour utiliser la fonction description  voir plus bas et remonter les instanciations let viking1 = warrior(
+//print("\(firstPlayer.description())")
+print("Viking1  : \(viking1.fighterName)\n")
+print("\(vikingOne.description())\n")
+print("Gladiator1  : \(gladiator1.fighterName)\n")
+print("\(gladiatorOne.description())\n")
+print("Knight1  : \(knight1.fighterName)\n")
+print("\(knightOne.description())\n")
+
+print("\(secondPlayer.displayTeam())")
+print("Viking2  : \(viking2.fighterName)\n")
+print("\(vikingTwo.description())\n")
+print("Gladiator2  : \(gladiator2.fighterName)\n")
+print("\(gladiatorTwo.description())\n")
+print("Knight2 : \(knight2.fighterName)\n")
+print("\(knightTwo.description())\n")
 
 //Formation des équipes
 
